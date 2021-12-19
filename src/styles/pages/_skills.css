@@ -1,0 +1,26 @@
+/* 3.3 Education */
+
+#education {
+   color: var(--shadow);
+   background-color: #ffffff;
+}
+
+.skill-car img {
+   max-width: 100%;
+}
+
+.certificate {
+   font-size: 1rem;
+   font-weight: 600;
+   margin-bottom: 1rem;
+}
+.badges a {
+   text-decoration: none;
+   margin-right: 14px;
+   margin-top: 10px;
+}
+
+.badges a img {
+   width: 30px;
+   height: 30px;
+}

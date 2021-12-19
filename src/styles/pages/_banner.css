@@ -1,0 +1,93 @@
+/* ------------------------------
+            3.Section 
+  ------------------------------ */
+
+.intro {
+   opacity: 0;
+   transform: translateY(-40px);
+   transition: all 0.7s;
+}
+.intro.animate {
+   opacity: 1;
+   transform: translateY(0);
+}
+.pp-scrollable {
+   padding: 0;
+   overflow-x: hidden;
+}
+.intro {
+   width: 100%;
+   height: 100%;
+   white-space: nowrap;
+}
+.intro::before {
+   content: "";
+   display: inline-block;
+   height: 100vh;
+   vertical-align: middle;
+}
+.wrap {
+   width: 100%;
+   white-space: normal;
+   position: relative;
+   display: inline-block;
+   padding: 8rem 0 6rem;
+   vertical-align: middle;
+}
+
+/* 3.1 Home */
+
+#home {
+   background-image: url("../assets/images/ram.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+   overflow-y: hidden;
+}
+
+#home::before {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: rgba(0, 0, 0, 0.7);
+   overflow-y: hidden;
+}
+
+#home .container {
+   height: 100%;
+}
+
+.title {
+   text-transform: uppercase;
+   font-size: 1.2rem;
+   letter-spacing: 2px;
+   font-weight: 600;
+   color: #ff1462;
+}
+
+.title::before {
+   content: "<";
+}
+
+.title::after {
+   content: "/>";
+}
+
+.text-white {
+   margin-top: 26px;
+}
+
+h1 {
+   font-size: 4rem;
+   font-weight: 900;
+}
+
+@media screen and (min-width: 576px) {
+   h1 {
+      font-size: 4.5rem;
+   }
+}

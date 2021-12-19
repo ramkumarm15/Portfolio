@@ -1,0 +1,81 @@
+#projects {
+   color: var(--isabelline);
+   background: var(--orange);
+}
+
+.project-container {
+   width: 100%;
+   position: relative;
+   min-height: 100%;
+}
+
+.project-box {
+   display: block;
+   position: relative;
+   padding-bottom: 35%;
+   margin-top: 24px;
+   cursor: pointer;
+   transition: 0.3s;
+   color: var(--shadow);
+   text-transform: uppercase;
+   backdrop-filter: blur(16px) saturate(180%);
+   background-color: rgba(255, 255, 255, 0.6);
+   border: 1px solid rgba(209, 213, 219, 0.3);
+   border-radius: 0.25rem;
+}
+
+.project-box:hover {
+   color: var(--shadow);
+   background-color: #fff;
+   box-shadow: 0 20px 40px #36353510;
+}
+
+.project-inner {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   padding: 2rem 1rem;
+}
+
+.project-box h4 {
+   margin: 0;
+   font-size: 1.2rem;
+   font-weight: 600;
+}
+
+.project-stack {
+   color: var(--shadow);
+   margin-top: 0.6rem;
+   transition: 0.3s;
+   font-size: 0.6rem;
+   font-weight: 600;
+}
+
+@media screen and (min-width: 576px) {
+   .project-box {
+      padding-bottom: 65%;
+   }
+   .project-stack {
+      position: absolute;
+      bottom: 0;
+      text-align: center;
+   }
+}
+
+@media screen and (max-width: 767px) {
+   .project-box h4 {
+      margin: 0;
+      font-size: 1rem;
+      font-weight: 600;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+   }
+}
+
+#blog {
+   color: var(--shadow);
+   background-color: var(--pink);
+}

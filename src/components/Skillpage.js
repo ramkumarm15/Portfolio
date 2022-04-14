@@ -9,7 +9,7 @@ import Frontend from "../styles/assets/images/Frontend.png";
 import Backend from "../styles/assets/images/Backend.png";
 import Database from "../styles/assets/images/Database.png";
 
-export const Skillpage = () => {
+const Skillpage = () => {
    const [show, setShow] = React.useState(false);
 
    React.useEffect(() => {
@@ -105,3 +105,5 @@ export const Skillpage = () => {
       </>
    );
 };
+
+export default Skillpage;

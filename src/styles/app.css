@@ -40,6 +40,19 @@ Created By Ramkumar .M
 /* 1.2 Font Initialize */
 
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+@import url("./_utlis.css");
+
+/* Banner Page */
+@import url("./pages/_banner.css");
+
+/* About Page */
+@import url("./pages/_about.css");
+
+/* Skill Page */
+@import url("./pages/_skills.css");
+
+/* Portfolio and Blog page */
+@import url("./pages/_portfolio.css");
 
 body {
    font-family: "DM Sans", sans-serif;
@@ -90,19 +103,6 @@ section {
    background-size: cover;
 }
 
-@import url("./_utlis.css");
-
-/* Banner Page */
-@import url("./pages/_banner.css");
-
-/* About Page */
-@import url("./pages/_about.css");
-
-/* Skill Page */
-@import url("./pages/_skills.css");
-
-/* Portfolio and Blog page */
-@import url("./pages/_portfolio.css");
 
 .dPjdcl {
    background-color: transparent;

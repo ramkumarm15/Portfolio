@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 import { PagenavigationRight } from "./Pagenavigation";
 
-export const Frontpage = () => {
+const Frontpage = () => {
    const [show, setShow] = useState(false);
 
    useEffect(() => {
@@ -43,3 +43,5 @@ export const Frontpage = () => {
       </>
    );
 };
+
+export default Frontpage;

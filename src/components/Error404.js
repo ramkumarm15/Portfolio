@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 
-export const Error404 = () => {
+const Error404 = () => {
   return (
     <>
       <main className="d-flex align-items-center min-vh-100 py-3">
@@ -30,3 +30,5 @@ export const Error404 = () => {
     </>
   );
 };
+
+export default Error404;

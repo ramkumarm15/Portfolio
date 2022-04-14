@@ -2,7 +2,7 @@ import React from "react";
 
 import { PagenavigationLeft, PagenavigationRight } from "./Pagenavigation";
 
-export const Portfolio = () => {
+const Portfolio = () => {
    const [show, setShow] = React.useState(false);
 
    React.useEffect(() => {
@@ -27,7 +27,7 @@ export const Portfolio = () => {
                      />
                      <div className="container">
                         <div className="mb-5 text-title">
-                           <h6 className="title web-theme-text">Projects</h6>
+                           <h6 className="title web-theme-text">Sample Works</h6>
                         </div>
                         <div className="row align-items-center h-100">
                            <div className="col-md-6 col-lg-3">
@@ -126,3 +126,5 @@ export const Portfolio = () => {
       </>
    );
 };
+
+export default Portfolio;

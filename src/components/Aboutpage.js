@@ -2,11 +2,10 @@ import React, { useState, useEffect } from "react";
 
 import { PagenavigationLeft, PagenavigationRight } from "./Pagenavigation";
 
-import Head from "../styles/assets/images/profile.jpeg";
 import Github from "../styles/assets/images/github.svg";
 import LinkedIn from "../styles/assets/images/linkedin.svg";
 
-export const Aboutpage = () => {
+const Aboutpage = () => {
    const [show, setShow] = useState(false);
 
    useEffect(() => {
@@ -34,11 +33,12 @@ export const Aboutpage = () => {
                               <span className="text">
                                  A self-taught developer.
                               </span>{" "}
-                              I completed my Computer Science engineering from Kamaraj college of
-                              engineering and technology in year 2021. A rookie full-stack
-                              developer specialized in React JS and Django. Also
-                              I have done some projects that were saved in
-                              Github repositories, You may check it.
+                              I completed my Computer Science engineering from
+                              Kamaraj college of engineering and technology in
+                              year 2021. A rookie full-stack developer
+                              specialized in React JS and Django. Also I have
+                              done some sample works that were saved in Github
+                              repositories, You may check it.
                            </p>
                            <div className="social-icons">
                               <a
@@ -70,7 +70,7 @@ export const Aboutpage = () => {
                         <div className="col-md-6 col-lg-5 px-md-5 pt-3 offset-xl-1">
                            <div className="position-relative profile">
                               <img
-                                 src={Head}
+                                 src="https://res.cloudinary.com/knowledge-sharing/image/upload/v1642572387/Personal%20Website/profile_mynfbx.jpg"
                                  className="img-fluid w-100"
                                  alt=""
                               />
@@ -84,3 +84,5 @@ export const Aboutpage = () => {
       </>
    );
 };
+
+export default Aboutpage;

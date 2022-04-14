@@ -4,7 +4,7 @@ import { BlogContext } from "../context/context";
 
 import { PagenavigationLeft, PagenavigationRight } from "./Pagenavigation";
 
-export const Blogpage = () => {
+const Blogpage = () => {
    const { devTo } = useContext(BlogContext);
 
    const [show, setShow] = useState(false);
@@ -61,3 +61,5 @@ export const Blogpage = () => {
       </>
    );
 };
+
+export default Blogpage;
